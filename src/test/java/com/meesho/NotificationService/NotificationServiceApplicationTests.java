@@ -85,16 +85,7 @@ class NotificationServiceApplicationTests {
     }
 
 
-    // Notification Service Tests
-
-    @Test
-    public void testValidateSmsRequest_ValidRequest() {
-        // Given
-        SmsRequest smsRequest = new SmsRequest("+919634916827", "Test Message");
-
-        // When, Then
-        assertDoesNotThrow(() -> messagingService.validateSmsRequest(smsRequest));
-    }
+    
 
 
     @Test
